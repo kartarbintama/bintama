@@ -118,10 +118,11 @@ body {
     cursor: pointer;
 }
 
-    /* --- Hero Section --- */
+ /* --- Hero Section --- */
 .hero {
     position: relative;
-    background: linear-gradient(135deg, rgba(10, 56, 138, 0.65) 0%, rgba(16, 82, 205, 0.65) 100%), url('../assets/bg.jpg');
+    /* Gradasi biru navy tua yang lebih gelap dan kontras */
+    background: linear-gradient(135deg, rgba(6, 28, 71, 0.82) 0%, rgba(10, 48, 120, 0.82) 100%), url('../assets/bg.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -470,4 +471,32 @@ body {
     .hero-title {
         font-size: 2.1rem;
     }
+}
+/* --- Style Link Footer (Teks Putih) --- */
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer-link {
+    color: #ffffff !important; /* Teks lokasi & email putih polos */
+    text-decoration: none;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    transition: opacity 0.3s ease, transform 0.2s ease;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.footer-link i {
+    margin-top: 3px;
+    color: #4880ff; /* Warna ikon tetap biru terang agar kontras */
+}
+
+.footer-link:hover {
+    color: #ffffff;
+    opacity: 0.8; /* Efek redup halus saat diarahkan kursor */
+    transform: translateX(3px);
 }
