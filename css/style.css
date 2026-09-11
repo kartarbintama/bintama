@@ -373,7 +373,7 @@ body {
 
 /* --- Footer / Kontak --- */
 .footer {
-    background: #08255e;
+    background:var(--blue-hero);
     color: #fff;
     padding: 50px 0 20px;
 }
@@ -492,7 +492,7 @@ body {
 
 .footer-link i {
     margin-top: 3px;
-    color: #4880ff; /* Warna ikon tetap biru terang agar kontras */
+    color: #ffffff; /* Warna ikon tetap biru terang agar kontras */
 }
 
 .footer-link:hover {
