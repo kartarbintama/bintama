@@ -118,14 +118,17 @@ body {
     cursor: pointer;
 }
 
-/* --- Hero Section --- */
+    /* --- Hero Section --- */
 .hero {
     position: relative;
-    background: linear-gradient(135deg, rgba(10, 56, 138, 0.75) 0%, rgba(16, 82, 205, 0.75) 100%), url('../assets/bg.JPG');
+    background: linear-gradient(135deg, rgba(10, 56, 138, 0.65) 0%, rgba(16, 82, 205, 0.65) 100%), url('../assets/bg.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 160px 0 100px;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    padding: 140px 0 80px;
     color: #fff;
 }
 
